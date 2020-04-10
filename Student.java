@@ -16,34 +16,30 @@ class Student {
 
 	//TODO constructor
 	public Student(String index, String firstName, String lastName) {
-                this.index = index;
-                this.firstName = firstName;
-                this.lastName = lastName;
-        }
+	    this.index = index;
+	    this.firstName = firstName;
+	    this.lastName = lastName;
+	}
 
 	//TODO seters & getters
     public String getIndex() {
-                return this.index;
-        }
+	    return this.index;
+	}
     public String getFirstName() {
-                return this.firstName;
-        }
+	    return this.firstName;
+	}
     public String getLastName() {
-                return this.lastName;
-        }
-
+	    return this.lastName;
+	}
     public void setIndex(String index) {
-                this.index = index;
-        }
+	    this.index = index;
+	}
     public void setFirstName(String firstName) {
-                this.firstName = firstName;
-        }
+	    this.firstName = firstName;
+	}
     public void setLastName(String lastName) {
-                this.lastName = lastName;
-        }
-
-
-
+	    this.lastName = lastName;
+	}
 
 	public double getAverage() {
 		//TODO
@@ -52,7 +48,6 @@ class Student {
             average += labPoints[i];
         average = average * 1.0 / labPoints.length;
         return average;
-
 	}
 
 	public boolean hasSignature() {
@@ -60,7 +55,6 @@ class Student {
         if(labPoints.length > 8)
             return true
         else return false
-
 	}
 }
 
