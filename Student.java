@@ -22,39 +22,39 @@ class Student {
 	}
 
 	//TODO seters & getters
-    public String getIndex() {
+    	public String getIndex() {
 	    return this.index;
 	}
-    public String getFirstName() {
+    	public String getFirstName() {
 	    return this.firstName;
 	}
-    public String getLastName() {
+    	public String getLastName() {
 	    return this.lastName;
 	}
-    public void setIndex(String index) {
+    	public void setIndex(String index) {
 	    this.index = index;
 	}
-    public void setFirstName(String firstName) {
+    	public void setFirstName(String firstName) {
 	    this.firstName = firstName;
 	}
-    public void setLastName(String lastName) {
+    	public void setLastName(String lastName) {
 	    this.lastName = lastName;
 	}
 
 	public double getAverage() {
 		//TODO
-        float average;
-        for(int i=0; i<labPoints.length; i++)
-            average += labPoints[i];
-        average = average * 1.0 / labPoints.length;
-        return average;
+        	float average;
+        	for(int i=0; i<labPoints.length; i++)
+            	average += labPoints[i];
+        	average = average * 1.0 / labPoints.length;
+        	return average;
 	}
 
 	public boolean hasSignature() {
 		//TODO
-        if(labPoints.length > 8)
-            return true
-        else return false
+        	if(labPoints.length > 8)
+            	return true
+        	else return false
 	}
 }
 
